@@ -11,3 +11,9 @@ export const useDrizzle = () => {
 
 export type User = typeof schema.users.$inferSelect;
 export type UserDto = typeof schema.users.$inferInsert;
+
+export type BackingTrack = typeof schema.backingTrack.$inferSelect;
+export type BackingTrackDto = typeof schema.backingTrack.$inferInsert;
+
+export type JournalEntry = typeof schema.journalEntry.$inferSelect;
+export type JournalEntryDto = typeof schema.journalEntry.$inferInsert;
