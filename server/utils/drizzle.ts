@@ -10,3 +10,4 @@ export const useDrizzle = () => {
 };
 
 export type User = typeof schema.users.$inferSelect;
+export type UserDto = typeof schema.users.$inferInsert;
